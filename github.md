@@ -1,8 +1,8 @@
 ![github workflow](github-flow.png)
 
-# git and github (2025)
+# git and github (2026)
 
-This document originates here: https://github.com/astroumd/PHYS265-spring25/blob/main/github.md
+This document originates here: https://github.com/astroumd/PHYS265-spring26/blob/main/github.md
 
 [**git**](https://xkcd.com/1597/) is arguably the most common Version
 Control System (VCS) on the market and very popular with Open Source
@@ -43,13 +43,14 @@ for power users with fast fingers.
 ## Steps
 
 0. Create an account on github.com and share your github username with the instructors.
-   This was already part of your Homework 1. You will probably be asked to set up 2FA. I use "Duo Mobile".
+   This was already part of your Homework 1. You will probably be asked to set up 2FA.
+   I use "Duo Mobile".
 
-1. Fork our existing repo from https://github.com/astroumd/PHYS265-spring25 into your personal github space.
+1. Fork our existing repo from https://github.com/astroumd/PHYS265-spring26 into your personal github space.
    Keep the same name! Look for the **fork** button in the top right portion of the window, and make sure you
    are logged into your github account.  You only need the main branch here.
 
-2. You should now be in your own https://github.com/Your_Github_Name/PHYS265-spring25 repository.
+2. You should now be in your own https://github.com/Your_Github_Name/PHYS265-spring26 repository.
 
 3. Notice the Lab1, Lab2, Lab3 and Project folders in the **Code** tab along the top.
    You submitted work will be in those folders.
@@ -127,6 +128,6 @@ There could be more here on how keys are generated with **ssh-keygen** and **ssh
 
 Our public class repository is available via two different style links: http and git:
 
-      https://github.com/astroumd/PHYS265-spring25
-      git@github.com:astroumd/PHYS265-spring25.git
+      https://github.com/astroumd/PHYS265-spring26
+      git@github.com:astroumd/PHYS265-spring26.git
 

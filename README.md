@@ -72,8 +72,9 @@ Also some self-guided and OS agnostic lessons on:
  
 ## Offline documentation
 
-The spyder tool we are using has excellent help on python: both syntax and API.
-But if you want something in parallel to always have online:
+The JDL we are using has excellent help on python: both syntax and API.
+But if you want something in parallel to always have online outside
+of the app:
 
 * Zeal (for Linux and Windows)
 * Dash (for Mac) - free alternatives are:  dasht and devbook

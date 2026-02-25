@@ -60,7 +60,7 @@ for power users with fast fingers.
 
 4. Use the Github Desktop and use **File -> Clone Repository**  to get a local copy on your laptop. Pick a **Local Path**,
    ideally somewhere in your personal class folder for PHYS265. Click on CONTINUE, as this potentially allows you
-   to merge in updates from the **upstream**. If you don't care, click on Cancel here.
+   to merge in updates from the **upstream**. 
 
 5. Modify the NAME file, and complete it by puting your name in it. You can do this from your JDL app, or
    any native operating system tool. Even emacs.
@@ -89,8 +89,6 @@ for power users with fast fingers.
 
 ## Authentication (advanced)
 
-This applies to the web interface.
-
 As of January 2024 github enforces 2FA (two-factor authentication). Although you will find
 everything you need to know to work with github on their website, there are numerous
 web pages summarizing this. One example is on https://swcarpentry.github.io/git-novice/ which
@@ -108,10 +106,7 @@ Settings -> Developer Setting  -> Personal access tokens -> Tokens (classic) -> 
 
 https://github.com/settings/tokens
 
-Typically you will get a token, something like
-
-      ghp_blablablabla
-
+Typically you will get a token, something like `ghp_blablablabla`
 that you will then use as a password. When it was generated, you also had to give it a lifetime. Pick one year,
 or anything you prefer.
 
@@ -129,14 +124,15 @@ There could be more here on how keys are generated with **ssh-keygen** and **ssh
 
 ## Upstream Merge (advanced)
 
-If the upstream (the repo you forked from) was updated, you can merge them into your main:
+If the upstream (the repo you forked from) was updated, you can merge them into your repo. Of course
+this assumes you didn't change those original files, that would be a conflict.
+Here is the recipe to *merge the upstream* as the lingo says:
 
-1. Switch to your default branch (main) from the top menu click **Current Branch** and pick main.
+1. Switch to your default branch (main): from the top menu click **Current Branch** and pick main.
 
-2. Fetch changes from all remotes (including upstream). This is the top right button, the button may
-   change to Push origin or Pull origin afterwards.
+2. Fetch changes from all remotes (including upstream). This is the top right button.
 
-3. Top menu bar:  **Branch > Merge into current branch**
+3. Top menu bar:  **Branch > Merge into current branch**. Pick upstream/main and create the merge commit.
 
 ## Class Repository
 
